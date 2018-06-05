@@ -5,3 +5,7 @@ for item in numbers:
         data.append(item-10)
 
 print(data)
+
+#for quick-but-hard
+#data = [numbers + item for item in numbers - 10]
+#print(data)
