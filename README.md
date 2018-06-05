@@ -1,3 +1,5 @@
+Edited for HILT 2018
+--
 # portfolio-stub
 Stub site for use with our intro to GitHub
 
