@@ -13,3 +13,7 @@ for person, year in presidents.items():
 
 print("There are " + str(eighteenth_century) + " 18th-c. births and " + str(nineteenth_century)
 + " 19th-c. births and " + str(twentieth_century) + " 20th-c. births in my collection.")
+
+for person, year in presidents.items():
+    if year in range (1800, 1900):
+        print(person)
