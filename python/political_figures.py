@@ -4,9 +4,9 @@ twentieth_century = 0
 eighteenth_century = 0
 
 for person, year in presidents.items():
-    if year in range (1800, 1900):
+    if year in range (1700, 1800):
         eighteenth_century += 1
-    elif year in range (1900, 2000):
+    elif year in range (1800, 1900):
         nineteenth_century += 1
     else:
         twentieth_century += 1
