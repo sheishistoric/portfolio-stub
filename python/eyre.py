@@ -38,3 +38,5 @@ print(clean_words[0:30])
 
 word_counts = nltk.FreqDist(clean_words)
 print(word_counts.most_common(10))
+print("'Jane' appears " + str(word_counts['jane']) + " times in the text." )
+nltk.Text(clean_words).dispersion_plot(['he', 'she', 'jane', 'tony'])"
